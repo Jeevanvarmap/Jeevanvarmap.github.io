@@ -1,0 +1,96 @@
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main{
+    margin-right: 7%;
+    margin-left: 37.5%;
+}
+
+#name{
+    color: #4DA4CF;
+    display: table;
+    margin-top: 200px;
+    
+}
+
+
+
+#info{
+    color: #3E494F;
+    display: table;
+}
+
+#quick_action{
+    margin-top: 5px;
+    color: #687BF3;
+}
+
+.button{
+    background-color: #4DA4CF ;
+    color:#3E494F;
+    border: 5px solid #4DA4CF;
+    border-radius: 5px;
+}
+
+#social_pro{
+    margin-top: 15px;
+}
+
+
+.fa-linkedin {
+    color: #3E494F;
+}
+.fa-github {
+    color: #3E494F;
+}
+.fa-behance {
+    color: #3E494F;
+}
+.fa-medium{
+    color: #3E494F;
+}
+.fa-twitter {
+    color: #3E494F;
+}
+
+.fa-envelope{
+    color: #3E494F;
+}
+.fa-phone {
+    color: #3E494F;
+}
+.fa-instagram {
+    color: #3E494F;
+}
+.fa-twitter {
+    color: #3E494F;
+}
+.fa-facebook {
+    color: #3E494F;
+}
+
+.fa {
+    padding: 7.5px;
+  }
+
+@media only screen and (min-width: 600px){
+#main
+{
+    margin-right: 10%;
+    margin-left: 45%;
+}}
+
+@media only screen and (min-width: 768px) {
+#main
+{
+    margin-right: 10%;
+    margin-left: 55%;
+    width: 40%;
+}
+
+
+}
