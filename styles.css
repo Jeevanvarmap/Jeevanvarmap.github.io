@@ -5,16 +5,20 @@ body {
     background-position: center;
 }
 
+.navbar{
+    background-color: antiquewhite ;
+}
+
 #main{
     margin-right: 7%;
-    margin-left: 37.5%;
+    margin-left: 45%;
+    vertical-align: center;
 }
 
 #name{
     color: #4DA4CF;
     display: table;
-    margin-top: 40%;
-    
+    margin-top: 50%;    
 }
 
 
@@ -77,20 +81,28 @@ body {
     padding: 7.5px;
   }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 768px){
 #main
 {
-    margin-right: 10%;
-    margin-left: 45%;
-}}
+    margin-right: 7%;
+    margin-left: 55%;
+}
+#name{
+    margin-top: 40%;    
+}
+}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
 #main
 {
     margin-right: 10%;
     margin-left: 55%;
     width: 40%;
 }
-
-
+#name{
+    margin-top: 25%; 
+}
+#info{
+    width: 400px;
+}
 }
