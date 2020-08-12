@@ -53,6 +53,8 @@ body {
     margin-right: 4%;
     vertical-align: center;
     margin-top: 25%;
+    margin-bottom: 25%;
+
 }
 
 .fa-linkedin {
@@ -116,7 +118,6 @@ body {
     #main{
         margin-left: 52.5%;
         margin-right: 10%;
-        margin-top: 12.5%;
     }
 }
 
@@ -124,6 +125,5 @@ body {
     #main{
         margin-left: 55%;
         margin-right: 10%;
-        margin-top: 10%;
     }
 }
