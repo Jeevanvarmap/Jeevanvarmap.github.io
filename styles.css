@@ -9,6 +9,7 @@ body {
     background-color: antiquewhite ;
 }
 
+
 #main{
     margin-right: 7%;
     margin-left: 45%;
@@ -26,6 +27,7 @@ body {
 #info{
     color: #3E494F;
     display: table;
+    margin-top: 15px;
 }
 
 #quick_action{
