@@ -1,0 +1,100 @@
+body {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background-color: antiquewhite ;
+    font-weight: bold;
+	justify-content: space-evenly; 
+	align-items: center; 
+    text-align: center;
+}
+
+#follow{
+    padding-left: 2.5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#name{
+    padding-left: 10px;
+    color: #4DA4CF;
+    display: table;  
+}
+
+#info{
+    color: #3E494F;
+    display: table;
+    width: 300px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#quick_action{
+    margin-top: 5px;
+    color: #687BF3;
+}
+
+.button{
+    background-color: #4DA4CF ;
+    color:#3E494F;
+    border: 5px solid #4DA4CF;
+    border-radius: 5px;
+}
+
+#social_pro{
+    margin-top: 15px;
+}
+
+#main{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+.fa-linkedin {
+    color: #3E494F;
+}
+.fa-github {
+    color: #3E494F;
+}
+.fa-behance {
+    color: #3E494F;
+}
+.fa-medium{
+    color: #3E494F;
+}
+.fa-twitter {
+    color: #3E494F;
+}
+.fa-envelope{
+    color: #3E494F;
+}
+.fa-phone {
+    color: #3E494F;
+}
+.fa-instagram {
+    color: #3E494F;
+}
+.fa-twitter {
+    margin-left: 7.5px;
+    color: #3E494F;
+}
+.fa-facebook {
+    margin-left: 2.5px;
+    color: #3E494F;
+}
+.fa-dribbble {
+    color: #3E494F;
+}
+.fa {
+    padding: 7.5px;
+}
