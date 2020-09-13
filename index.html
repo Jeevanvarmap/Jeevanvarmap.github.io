@@ -10,39 +10,18 @@
 
 <body>
 
-  <nav class="navbar navbar-default">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="25"></a>
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <div class="collapse navbar-collapse " id="myNavbar">
-      <ul class="nav navbar-nav ">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    </div>
-  </nav>
-
-
-
-
   <section id="about">
     <div id="main">
-      <div id="name">
+      <div id="name1">
         <h2><img src="images/logo.png" height="33"> JEEVAN VARMA.</h2>
       </div>
       <div id="info">
         <p>" I am a Tech Enthusiast, Passionate about learning new technologies"</p>
       </div>
-
+      <br>
+<div> <button class="button" id="my_portfolio"
+  style=' background-color: #4DA4CF ; border: 5px solid #4DA4CF ;'>My Portfolio</button></div>
+<br>
       <div id="quick_action">
         <button class="button" id="hire_button"
           style='margin-right:16px; background-color: antiquewhite; border: 5px solid antiquewhite;'>Hire Me</button>
@@ -73,7 +52,10 @@
 
 <script type="text/javascript">
   document.getElementById("hire_button").onclick = function () {
-    location.href = "contact.html";
+    location.href = "main.html#contact-section";
+  };
+  document.getElementById("my_portfolio").onclick = function () {
+    location.href = "main.html";
   };
 </script>
 
