@@ -33,7 +33,7 @@
 
         <!-- lOGO & LOGO TEXT HERE -->
         <a class="navbar-brand" href="index"><img src="images/logo.png" height="20"></a>
-        <a href="main" class="navbar-brand">Jeevan Varma</a>
+        <a href="in" class="navbar-brand">Jeevan Varma</a>
       </div>
 
       <!-- MENU LINKS -->
