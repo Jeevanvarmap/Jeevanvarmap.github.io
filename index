@@ -53,10 +53,10 @@
 
 <script type="text/javascript">
   document.getElementById("hire_button").onclick = function () {
-    location.href = "main#contact-section";
+    location.href = "in#contact-section";
   };
   document.getElementById("my_portfolio").onclick = function () {
-    location.href = "main";
+    location.href = "in";
   };
 </script>
 
