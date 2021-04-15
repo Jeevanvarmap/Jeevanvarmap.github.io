@@ -18,7 +18,7 @@ body {
   }
 
 #name1{
-    padding-left: 30px;
+    text-align: center;
     color: #4DA4CF;
     display: table;  
 }
